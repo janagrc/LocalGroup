@@ -1,0 +1,186 @@
+Title: The Gas Content and Stripping of Local Group Dwarf Galaxies 
+Authors: Putman M.E., Zheng Y., Price-Whelan A.M., Grcevich J., Johnson A.C.,
+    Tollerud E., Peek J.E.G.
+Table: Dwarf Galaxies within 2 Mpc: Other Parameters
+================================================================================
+Byte-by-byte Description of file: datafile2.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1- 17 A17    ---     Galaxy  Galaxy
+  19- 25 E7.1   Lsun    Lv      ?="" Luminosity, solar units
+  27- 30 I4     pc      rh      ?="" half-light radius, parsecs
+  32- 32 A1     ---   l_sigma*  Limit flag on sigma*
+  34- 37 F4.1   km/s    sigma*  ?="" stellar velocity dispersion
+  39- 42 F4.1   km/s    sigma2  ?="" gas velocity dispersion (1)
+  44- 47 I4     kpc     DMW     Distance from the center of Milky Way
+  49- 52 I4     kpc     DM31    Distance from the center of M31
+  54- 57 I4     kpc     DLG     Distance from the Local Group surface (2)
+  59- 61 I3     kpc     DLGh    DLG adjustment, Milky Way mass higher (2)
+  63- 65 I3     kpc     DLGl    DLG adjustment, Milky Way mass lower (2)
+  67- 68 A2     ---   r_Lv      Reference for Lv (3)
+  70- 71 A2     ---   r_rh      Reference for rh (3)
+  73- 74 A2     ---   r_sigma*  Reference for sigma* (3)
+--------------------------------------------------------------------------------
+Note (1): When sigma2 ({sigma}_{gas}) is noted it is derived directly from
+    the FWHM of the HI line.
+Note (2): This is the distance from the Local Group surface defined in
+    Section 3.1, while DMW and DM31 are from the center of the MW and M31.
+    The DLGh value is the variation on the distance from this surface when
+    the Milky Way mass is higher and the M31 mass is lower. The DLGl value
+    is when the Milky Way mass is lower and the M31 mass is higher. The
+    total Local Group mass remains the same in all cases.
+Note (3): References --
+     5 = McConnachie (2012AJ....144....4M);
+     6 = Simon (2019ARA&A..57..375S);
+     7 = {sigma} is from Martin et al. (2016MNRAS.458L..59M);
+     8 = Properties are from Drlica-Wagner et al. (2016ApJ...833L...5D);
+     9 = {sigma} is from Carlin & Sand (2018ApJ...865....7C). No rh is given
+        since this galaxy is highly disrupted;
+    10 = {sigma} is from Simon et al. (2020ApJ...892..137S);
+    11 = rh is from Bothun & Thompson (1988AJ.....96..877B);
+    12 = The LMC has a very large stellar rotation component compared to the
+        stellar dispersion component. Using the stellar dispersion value
+        (20.2 km s-1), would lead to a severe underestimate of the total
+        mass, so we use the gas dispersion calculated from the FWHM of the
+        HI line;
+    13 = Properties are from Homma et al. (2016ApJ...832...21H);
+    14 = Properties are from Torrealba et al. (2019MNRAS.488.2743T);
+    15 = Properties are from Homma et al. (2018PASJ...70S..18H);
+    16 = {sigma}_{*} is from Kacharov et al. (2017MNRAS.466.2006K);
+    17 = {sigma}_{*} is from Martin et al. (2014ApJ...793L..14M);
+    18 = {sigma}_{*} is from Namumba et al. (2019MNRAS.490.3365N);
+    19 = rh is from Martin et al. (2016ApJ...824L...5M). {sigma}_{*} is from
+        Collins et al. (2020MNRAS.491.3496C);
+    20 = {sigma}_{*} is from Taibi et al. (2020A&A...635A.152T);
+    21 = {sigma}_{*} is from Sand et al. (2015ApJ...812L..13S);
+    22 = {sigma}_{*} is from Barnes et al. (2001MNRAS.322..486B);
+    23 = {sigma}_{*} is from Namumba et al. (2018MNRAS.478..487N);
+    24 = {sigma}_{*} is from Bernstein-Cooper et al. (2014AJ....148...35B).
+        rh in this case is the semi-major axis noted by McQuinn et al.
+        (2015ApJ...812..158M);
+    25 = {sigma}_{*} is from Begum et al. (2005A&A...433L...1B);
+    26 = {sigma}_{*} is from Bouchard et al. (2005AJ....130.2058B) and is
+        consistent with the detection at the lower velocity by Koribalski et
+        al. (2018MNRAS.478.1611K);
+    27 = {sigma}_{*} is from Koribalski et al. (2018MNRAS.478.1611K).
+--------------------------------------------------------------------------------
+Draco II          1.8E+02   19    2.9        24  771 -210 +15 -15  6  6  7 
+Segue 1           2.8E+02   24    3.7        28  788 -197 +18 -17  6  6  6 
+DESJ0225+0304     2.4E+02   19               29  762 -214 +14 -15  6  6    
+Tucana III        3.4E+02   37 <  1.2        23  784 -203 +18 -17  6  6  6 
+Sagittarius dSph  2.1E+07 2662   11.4        19  787 -206 +19 -17  6  6  6 
+Hydrus I          6.5E+03   53    2.7        26  794 -198 +20 -17  6  6  6 
+Carina III        7.8E+02   30    5.6        29  797 -195 +20 -18  6  6  6 
+Triangulum II     3.7E+02   16 <  3.4        35  752 -222 +12 -14  6  6  6 
+Cetus II          8.6E+01   17               32  764 -208 +13 -14  6  6    
+Reticulum 2       3.0E+03   51    3.3        33  786 -193 +17 -16  6  6  6 
+Ursa Major II     5.1E+03  139    5.6        41  766 -198 +13 -14  6  6  6 
+Carina II         5.4E+03   92    3.4        37  803 -187 +20 -18  6  6  6 
+Segue II          5.3E+02   40    3.4        43  747 -217 +11 -13  6  6  6 
+Coma Berenices    4.4E+03   69    4.6        43  797 -181 +18 -17  6  6  6 
+Bootes II         1.3E+03   39   10.5        40  803 -184 +20 -18  6  6  6 
+Pictor II         1.6E+03   47               46  806 -179 +20 -18  8  8    
+Willman 1         1.2E+03   33    4.0        50  776 -183 +13 -15  6  6  6 
+Bootes III        1.7E+04        10.7        46  796 -179 +17 -17  5     9 
+Tucana IV         2.1E+03  127    4.3        45  791 -180 +16 -16  6  6 10 
+LMC               1.5E+09 2675        34.    50  807 -174 +19 -18  5 11 12 
+Grus II           3.1E+03   93 <  1.9        48  785 -180 +15 -16  6  6 10 
+Tucana V          3.7E+02   16               52  795 -173 +16 -16  6  6    
+Tucana II         3.1E+03  121    8.6        54  794 -172 +16 -16  6  6  6 
+SMC               4.6E+08 1105   27.6        61  807 -163 +18 -17  5 11  5 
+Bootes            2.2E+04  191    4.6        64  815 -161 +20 -18  6  6  6 
+Sagittarius II    1.0E+04   33               63  785 -166 +13 -15  6  6    
+Ursa Minor        3.5E+05  405    9.5        78  754 -171  +8 -12  6  6  6 
+Horologium II     3.6E+02   44               79  793 -150 +13 -15  6  6    
+Draco             3.0E+05  231    9.1        82  748 -171  +7 -12  6  6  6 
+Phoenix 2         1.0E+03   37               81  793 -147 +13 -15  6  6    
+Sculptor          1.8E+06  279    9.2        86  761 -158  +8 -12  6  6  6 
+Horologium 1      2.7E+03   40    4.9        87  798 -141 +13 -15  6  6  6 
+Virgo I           1.8E+02   38               87  845 -141 +24 -21 13 13    
+Eridanus 3        5.4E+02   14               87  793 -142 +12 -15  5  5    
+Reticulum III     1.8E+03   64               92  813 -133 +15 -16  6  6    
+Sextans           3.2E+05  456    7.9        98  841 -127 +21 -19  6  6  6 
+Ursa Major        9.6E+03  295    7.0       102  773 -137  +8 -13  6  6  6 
+Indus I           2.1E+03   37               94  808 -132 +14 -16  5  5    
+Carina            5.2E+05  311    6.6       108  838 -117 +19 -18  6  6  6 
+Aquarius II       4.7E+03  160    5.4       105  729 -164  +3 -10  6  6  6 
+Crater II         1.6E+05 1066    2.7       116  886 -126 +35 -26  6  6  6 
+Grus I            2.1E+03   28    2.9       116  797 -115 +10 -14  6  6  6 
+Pictoris 1        2.5E+03   32              128  822  -99 +13 -16  6  6    
+Antlia 2          3.5E+05 2899    5.7       133  889 -101 +30 -25 14 14 14 
+Hercules          1.8E+04  216    5.1       126  822 -100 +13 -16  6  6  6 
+Fornax            1.9E+07  792   11.7       141  768 -105  +5 -11  6  6  6 
+Hydra II          7.5E+03   67 <  3.6       148  928 -118 +52 -36  6  6  6 
+Leo IV            8.5E+03  114    3.3       155  895  -75 +26 -23  6  6  6 
+Canes Venatici II 1.0E+04   71    4.6       161  833  -66 +12 -15  6  6  6 
+Leo V             4.4E+03   49    2.3       170  904  -60 +26 -23  6  6  6 
+Pisces II         4.2E+03   60    5.4       182  655 -154  -4  -6  6  6  6 
+Columba I         4.1E+03  117              188  819  -45  +7 -13  6  6    
+Pegasus III       3.7E+03   78    5.4       203  657 -128  -4  -7  6  6  6 
+Canes Venatici I  2.7E+05  437    7.6       211  856  -16 +10 -15  6  6  6 
+Indus II          4.5E+03  181              208  853  -20 +10 -15  6  6    
+Leo II            6.7E+05  171    7.4       236  897   11 +14 -17  6  6  6 
+Cetus III         8.2E+02   90              255  644  -89  -2 -10 15 15    
+Leo I             4.4E+06  270    9.2       258  918   34 +15 -18  6  6  6 
+Eridanus II       5.9E+04  246    6.9       368  884  128  +1 -10  6  6  6 
+Leo T             1.4E+05  118    7.5       414  982  187  +8 -15  6  6  6 
+Phoenix           7.7E+05  454    9.3       415  864  160  -7  -4  5  5 16 
+NGC 6822          1.0E+08  354   23.2       452  894  200  -7  -4  5  5  5 
+Andromeda XVI     3.4E+05  123    3.8       480  319 -231 +12 -29  5  5  5 
+Andromeda XXIV    9.3E+04  366              605  204 -219 +17 -34  5  5    
+NGC 185           6.8E+07  457   24.0       621  184 -228 +18 -35  5  5  5 
+Andromeda XV      4.8E+05  220    4.0       630  175 -229 +18 -35  5  5  5 
+Andromeda II      9.1E+06 1175    7.8       656  181 -185 +19 -36  5  5  5 
+Andromeda XXVIII  2.1E+05  213    6.6       661  365    0 +16 -34  5  5  5 
+Andromeda X       8.8E+04  253    6.4       674  130 -233 +20 -37  5  5  5 
+NGC 147           6.2E+07  623   16.0       680  139 -212 +20 -37  5  5  5 
+Andromeda XXX     1.3E+05  268   11.8       686  144 -199 +20 -37  5  5  5 
+Andromeda XVII    2.2E+05  263    2.9       732   66 -251 +23 -40  5  5  5 
+Andromeda XXIX    1.8E+05  362    5.7       734  187 -123 +21 -38  5  5  5 
+Andromeda XI      4.6E+04  152 <  4.6       738  108 -196 +23 -39  5  5  5 
+Andromeda XX      2.5E+04  114    7.1       744  128 -173 +23 -39  5  5  5 
+Andromeda I       4.7E+06  672   10.2       749   55 -247 +24 -40  5  5  5 
+Andromeda III     1.0E+06  479    9.3       752   73 -224 +24 -40  5  5  5 
+IC 1613           1.0E+08 1496   10.8       758  518  172 +15 -33  5  5  5 
+Cetus             2.8E+06  703    8.3       756  678  288 +11 -29  5  5  5 
+Lacerta I         4.1E+06  927   10.3       760  262  -42 +21 -38  5  5 17 
+Andromeda XXVI    6.0E+04  222    8.6       766  102 -189 +24 -40  5  5  5 
+Andromeda VII     1.6E+07  776   13.0       765  217  -81 +22 -39  5  5  5 
+Andromeda IX      1.5E+05  557   10.9       770   39 -249 +25 -41  5  5  5 
+Andromeda XXIII   1.1E+06 1029    7.1       774  126 -163 +24 -40  5  5  5 
+LGS3              9.6E+05  470    7.9       773  268  -33 +21 -39  5  5  5 
+Perseus I         1.2E+06  382    4.2       779  348   41 +20 -37  5  5 17 
+Andromeda V       5.6E+05  315   11.5       777  109 -178 +25 -41  5  5  5 
+Cassiopeia III    6.8E+06 1468    8.4       780  140 -147 +24 -40  5  5 17 
+Andromeda VI      3.3E+06  524   12.4       785  268  -28 +22 -39  5  5  5 
+IC 10             8.6E+07  612        25.9  798  252  -40 +23 -40  5  5 18 
+Andromeda XIV     2.4E+05  393    5.3       798  161 -124 +25 -41  5  5  5 
+Leo A             6.0E+06  499    6.7       803 1197  564  -9  -3  5  5  5 
+M32               3.2E+08  110   92.0       809   27 -271 +28 -43  5  5  5 
+Andromeda XXV     6.8E+05  709    3.0       817   90 -192 +27 -42  5  5  5 
+Andromeda XIX     3.3E+05 3065    7.8       824  115 -167 +27 -42  5 19 19 
+NGC 205           3.3E+08  590   35.0       828   46 -263 +29 -43  5  5  5 
+Andromeda XXVII   1.2E+05  433   14.8       832   77 -212 +28 -43  5  5  5 
+Andromeda XXI     7.0E+05  843    4.5       831  135 -147 +27 -42  5  5  5 
+Andromeda XIII    3.5E+04  191    5.8       843  134 -150 +28 -43  5  5  5 
+Tucana            5.6E+05  284    6.2       883 1352  657  +6 -15  5  5 20 
+Andromeda XXII    4.6E+04  252    2.8       925  276  -11 +29 -44  5  5  5 
+Pegasus dIrr      6.6E+06  562   12.3       921  474  187 +22 -40  5  5  5 
+Andromeda XII     3.5E+04  324    2.6       933  182 -137 +34 -46  5  5  5 
+WLM               4.3E+07 2340   17.5       933  835  476 +12 -31  5  5  5 
+Sagittarius dIrr  3.5E+06  282        10.  1059 1354  806  -5  -9  5  5  5 
+Aquarius          1.6E+06  458    7.9      1066 1170  740  +5 -22  5  5  5 
+Andromeda XVIII   5.0E+05  325    9.7      1217  457   44 +56 -58  5  5  5 
+Antlia B          6.3E+05  271         7.2 1296 1963 1047 +43 -45  5  5 21 
+NGC 3109          7.6E+07 1626        61.  1301 1984 1049 +46 -47  5  5 22 
+Antlia            1.3E+06  471        12.7 1350 2036 1096 +47 -48  5  5 22 
+UGC 4879          8.3E+06  162    9.6      1367 1394 1017  +8 -26  5  5  5 
+Sextans B         5.2E+07  440        17.  1429 1940 1204 +18 -25  5  5 23 
+Sextans A         4.4E+07 1029        19.  1435 2024 1201 +30 -35  5  5 23 
+Leo P             3.9E+05  566         8.4 1625 2048 1401  +8 -18  5 24 24 
+HIZSS3B                               11.9 1681 1921 1429  -4 -11       25 
+HIZSS3(A)                             23.  1681 1921 1429  -4 -11       25 
+KKR25             2.0E+06  263             1922 1869 1541 +12 -31  5  5    
+ESO410-G005       3.5E+06  280        14.2 1922 1861 1536 +12 -32  5  5 26 
+IC 5152           1.4E+08  550        36.  1945 2209 1702  -6  -8  5  5 27 

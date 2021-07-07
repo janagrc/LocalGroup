@@ -1,0 +1,204 @@
+Title: The Gas Content and Stripping of Local Group Dwarf Galaxies 
+Authors: Putman M.E., Zheng Y., Price-Whelan A.M., Grcevich J., Johnson A.C.,
+    Tollerud E., Peek J.E.G.
+Table: Dwarf Galaxies within 2 Mpc: Positions and HI Parameters
+================================================================================
+Byte-by-byte Description of file: datafile1.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units    Label   Explanations
+--------------------------------------------------------------------------------
+   1- 17 A17    ---      Galaxy  Galaxy
+  19- 20 A2     ---    f_Galaxy  Notes or flags on Galaxy (1)
+  22- 23 I2     h        RAh     Hour of Right Ascension (J2000) 
+  25- 26 I2     min      RAm     Minute of Right Ascension (J2000) 
+  28- 29 I2     s        RAs     Second of Right Ascension (J2000) 
+  31- 31 A1     ---      DE-     Sign of the Declination (J2000)
+  32- 33 I2     deg      DEd     Degree of Declination (J2000) 
+  35- 36 I2     arcmin   DEm     Arcminute of Declination (J2000) 
+  38- 39 I2     arcsec   DEs     Arcsecond of Declination (J2000) 
+  41- 44 I4     km/s     Vel     ?="" Velocity, km/s
+  46- 49 I4     kpc      Dist    Distance
+  51- 55 F5.1   kpc    e_Dist    Lower (or symmetric) uncertainty in Dist
+  57- 59 I3     kpc    E_Dist    ?="" Upper uncertainty in Dist
+  61- 66 A6     ---      Data    Data (2)
+  68- 78 A11    ---      Method  Method (3)
+  80- 84 F5.1   mK       sigHI   ?="" 1{sigma} HI flux (4)
+  86- 86 A1     Msun   l_MHI     Limit flag on MHI
+  88- 94 A7     Msun     MHI     HI mass
+  96-103 A8     Msun   e_MHI     Lower (or symmetric) uncertainty in MHI
+ 105-111 A7     Msun   E_MHI     Upper uncertainty in MHI
+ 113-114 I2     ---      rPos    Reference for RA/DE positions (5)
+ 116-117 I2     ---    r_Vel     ?="" Reference for Vel (5)
+ 119-120 I2     ---    r_Dist    Reference for Dist (5)
+--------------------------------------------------------------------------------
+Note (1): Notes or flags on Galaxy --
+     8 = The limit is only for the core of this tidally extended galaxy;
+    11 = The limit is calculated with twice the median flux in the region of
+        the galaxy due to strong Galactic contamination (see text);
+    14 = Sculptor has been claimed as a detection in previous publications,
+        but the HI clouds are offset from the stellar position of the galaxy
+        and there is abundant surrounding emission at similar velocities;
+    19 = Fornax is at velocities that confuse any associated HI with
+        Galactic emission. The limit at the stellar position and velocity is
+        given;
+    20 = This galaxy is unlikely to exist based on observations by Cantu et
+        al. (2020arXiv200506478C);
+    22 = Phoenix has confusion with Galactic emission, but the HI cloud is
+        at the position and velocity of the stellar component;
+    24 = Lacerta I is Andromeda XXXI in McConnachie (2012AJ....144....4M);
+    25 = Perseus I is Andromeda XXXIII in McConnachie (2012AJ....144....4M);
+    26 = Cassiopeia III is Andromeda XXXII in McConnachie (2012AJ....144....4M).
+Note (2): Data --
+    GALFA1 = GALFA-HI DR1, Peek et al. (2011ApJS..194...20P);
+    GALFA2 = GALFA-HI DR2, Peek et al. (2018ApJS..234....2P);
+    HI4PI  = HI4PI Collaboration et al. (2016A&A...594A.116H).
+Note (3): The method indicates if sigHI was obtained with a method
+    consistent with the source being resolved (Res.) or unresolved (Unres.)
+    in the data. If the source does not have a velocity (No Vel), then the
+    sigHI is an average from all of the channels without significant
+    Galactic emission. For HI4PI resolved, the sigHI values tend to be lower
+    as they are the standard deviation of the flux sum divided by the area
+    of the optical galaxy for 9 regions surrounding the galaxy (see text). 
+Note (4): The HI mass is calculated using 5{sigma}, the noted distance, and
+    a fixed velocity width of 10 km/s. The errors are from the distance
+    errors shown.
+Note (5): References --
+     5 = McConnachie (2012AJ....144....4M). 
+     6 = Simon (2019ARA&A..57..375S);
+     7 = Luque et al. (2017MNRAS.468...97L) for the position;
+     9 = Koposov et al. (2018MNRAS.479.5343K) for the position;
+    10 = Torrealba et al. (2018MNRAS.475.5085T) for the position;
+    12 = Drlica-Wagner et al. (2016ApJ...833L...5D) for the position;
+    13 = Simon et al. (2020ApJ...892..137S) for the position and velocity;
+    15 = Homma et al. (2016ApJ...832...21H) for the position;
+    16 = Torrealba et al. (2016MNRAS.463..712T) for the position;
+    17 = Torrealba et al. (2016MNRAS.459.2370T) for the position;
+    18 = Torrealba et al. (2019MNRAS.488.2743T) for position, velocity and distance;
+    21 = Homma et al. (2018PASJ...70S..18H) for the position;
+    23 = Martin et al. (2014ApJ...793L..14M);
+    27 = Bouchard et al. (2005AJ....130.2058B) found a velocity of 159 km
+        s−1, but we do not note that here as this could not be confirmed by
+        Westmeier et al. (2017MNRAS.472.4832W) or Koribalski et al.
+        (2018MNRAS.478.1611K). Koribalski et al. (2018MNRAS.478.1611K) find
+        emission with a similar flux and velocity width at 36 km s−1, so we
+        leave the HI mass.
+--------------------------------------------------------------------------------
+Draco II             15 52 48 +64 33 55 -343   22   0.4     HI4PI  Unres.       17.  < 57      2                 5  6  6 
+Segue 1              10 07 04 +16 04 55  209   23   2.      GALFA1 Res.         17.  < 47      8                 5  6  6 
+DESJ0225+0304        02 25 42 +03 04 10        24   1.      GALFA2 Unres. No V  97.  < 71      4                 7     7 
+Tucana III           23 56 36 -59 36 00 -102   25   2.      HI4PI  Unres.       20.  < 90      14                5  6  6 
+Sagittarius dSph   8 18 55 20 -30 32 43  139   27   1.      HI4PI  Unres.       25.  < 126     12                5  6  6 
+Hydrus I             02 29 33 -79 18 32   80   28   1.      HI4PI  Unres.       23.  < 125     5                 9  6  6 
+Carina III           07 38 31 -57 53 59  285   28   1.      HI4PI  Unres.       18.  < 101     4                10  6  6 
+Triangulum II        02 13 17 +36 10 42 -382   28   2.      HI4PI  Unres.       19.  < 107     12                5  6  6 
+Cetus II             01 17 53 -17 25 12        30   3.      HI4PI  Unres. No V  20.  < 127     26                5     6 
+Reticulum 2          03 35 42 -54 02 57   63   32   2.      HI4PI  Unres.       21.  < 145     13       14       5  6  6 
+Ursa Major II        08 51 30 +63 07 48 -117   35   2.      HI4PI  Res.         13.  < 113     12       13       5  6  6 
+Carina II            07 36 26 -57 59 57  477   36   1.      HI4PI  Unres.       24.  < 221     7                10  6  6 
+Segue II             02 19 16 +20 10 31  -40   37   3.      GALFA2 Res.         43.  < 306     50                5  6  6 
+Bootes II            13 58 00 +12 51 00 -117   42   1.      GALFA2 Res.         20.  < 185     9                 5  6  6 
+Coma Berenices       12 26 59 +23 54 15   98   42   2.      GALFA1 Res.         12.  < 105     8                 5  6  6 
+Willman 1         11 10 49 21 +51 03 00  -14   45  10.      HI4PI  Unres.      360.  < 5.2E+03 2.3E+03           5  6  6 
+Pictor II            06 44 43 -59 53 49        45   4.    5 HI4PI  Unres. No V  19.  < 277     49       62      12     6 
+Bootes III         8 13 57 12 +26 48 00  198   47   2.      GALFA1 Unres.       38.  < 108     10                5  5  5 
+Tucana IV            00 02 55 -60 51 00   16   48   4.      HI4PI  Unres.       15.  < 238     40               13 13  6 
+LMC                  05 23 34 -69 45 22  262   51   2.                                 4.6E+08 0.4E+08           5  5  5 
+Grus II              22 04 05 -46 26 24 -110   53   5.      HI4PI  Unres.       20.  < 398     75               13 13  6 
+Tucana V             23 37 24 -63 16 12  -36   55   9.      HI4PI  Unres.       17.  < 360     118              13 13  6 
+Tucana II            22 51 55 -58 34 08 -129   58   8.      HI4PI  Res.          9.  < 215     59                5  6  6 
+SMC                  00 52 45 -72 49 43  146   64   4.                                 4.6E+08 0.5E+08           5  5  5 
+Bootes               14 00 06 +14 30 00  102   66   2.      GALFA2 Res.         25.  < 564     34                5  6  6 
+Sagittarius II       19 52 40 -22 04 05        70   2.      HI4PI  Unres. No V  20.  < 696     46                5     6 
+Ursa Minor           15 09 08 +67 13 21 -247   76   4.      HI4PI  Unres.       15.  < 601     63                5  6  6 
+Horologium II        03 16 32 -50 01 05        78   7.    8 HI4PI  Unres. No V  18.  < 775     139      159      5     6 
+Draco                17 20 12 +57 54 55 -291   82   6.      HI4PI  Res.         12.  < 592     87                5  6  6 
+Phoenix 2            23 39 59 -54 24 22        84   4.      HI4PI  Unres. No V  17.  < 855     81                5     6 
+Sculptor          14 01 00 09 -33 42 33  111   86   5.      HI4PI  Unres.       62.  < 3.2E+03 0.4E+03           5  6  6 
+Horologium 1         02 55 32 -54 07 08  113   87  11.   13 HI4PI  Unres.       17.  < 917     232      274      5  6  6 
+Eridanus 3           02 22 46 -52 17 01        87   8.      HI4PI  Unres. No V  20.  < 1.1E+03 0.2E+03           5     5 
+Virgo I              12 00 10 +00 40 48        87   8.   13 GALFA2 Unres. No V  82.  < 810     149      242     15     6 
+Reticulum III        03 45 26 -60 27 00        92  13.      HI4PI  Unres. No V  17.  < 1.0E+03 0.3E+03           5     6 
+Sextans              10 13 03 -01 36 53  224   95   3.      HI4PI  Res.          8.  < 479     30                5  6  6 
+Ursa Major I         10 34 53 +51 55 12  -55   97   6.      HI4PI  Res.        103.  < 6.9E+03 0.8E+03           5  6  6 
+Indus I              21 08 49 -51 09 56       100   9.      HI4PI  Unres. No V  20.  < 1.4E+03 0.3E+03           5     5 
+Carina               06 41 37 -50 57 58  223  106   5.      HI4PI  Unres.       14.  < 1.1E+03 0.1E+03           5  6  6 
+Aquarius II          22 33 56 -09 19 39  -71  108   3.      HI4PI  Unres.       21.  < 1.8E+03 0.1E+03          16  6  6 
+Crater II            11 49 14 -18 24 47   88  118   1.      HI4PI  Res.         31.  < 3.0E+03 0.6E+02          17  6  6 
+Grus I               22 56 42 -50 09 48 -141  120  11.   12 HI4PI  Unres.       21.  < 2.2E+03 0.4E+03           5  6  6 
+Pictoris 1           04 43 47 -50 16 59       126  16.   19 HI4PI  Unres. No V  20.  < 2.3E+03 0.6E+03  0.7E+03  5     6 
+Antlia 2             09 35 33 -36 46 02  291  132   6.      HI4PI  Res.          0.9 < 111     10               18 18 18 
+Hercules             16 31 02 +12 47 30   45  132   6.      HI4PI  Unres.       12.  < 1.5E+03 0.1E+03           5  6  6 
+Fornax            19 02 39 59 -34 26 57   55  139   3.      HI4PI  Unres.       25.  < 3.4E+03 0.1E+03           5  6  6 
+Hydra II             12 21 42 -31 59 07  303  151   7.    8 HI4PI  Unres.       20.  < 3.2E+03 0.3E+03           5  6  6 
+Leo IV               11 32 57 +00 32 00  132  154   5.      GALFA2 Res.         19.  < 2.3E+03 0.1E+03           5  6  6 
+Canes Venatici II    12 57 10 +34 19 15 -129  160   4.      HI4PI  Unres.       13.  < 2.4E+03 0.1E+03           5  6  6 
+Leo V                11 31 10 +02 13 12  171  169   4.      GALFA2 Unres.       79.  < 2.9E+03 0.1E+03           5  6  6 
+Pisces II            22 58 31 +05 57 09 -227  183  15.      GALFA1 Unres.       37.  < 1.6E+03 0.3E+03           5  6  6 
+Columba I            05 31 26 -28 01 48       183  10.      HI4PI  Unres. No V  22.  < 5.2E+03 0.6E+03           5     6 
+Pegasus III          22 24 23 +05 25 12 -223  205  20.      GALFA1 Unres.       57.  < 3.1E+03 0.6E+03           5  6  6 
+Canes Venatici I     13 28 04 +33 33 21   31  211   6.      HI4PI  Unres.       15.  < 4.8E+03 0.3E+03           5  6  6 
+Indus II          20 20 38 53 -46 09 36       214  16.      HI4PI  Unres. No V  19.  < 6.2E+03 0.9E+03           5     6 
+Leo II               11 13 29 +22 09 06   78  233  14.      HI4PI  Unres.       12.  < 4.5E+03 0.5E+03           5  6  6 
+Cetus III            02 05 19 -04 16 12       251  11.   24 HI4PI  Unres. No V  19.  < 8.4E+03 1.0E+03  1.6E+03 21     6 
+Leo I                10 08 28 +12 18 23  283  254  15.   16 HI4PI  Unres.       22.  < 1.0E+04 0.1E+04           5  6  6 
+Eridanus II          03 44 21 -43 32 00   76  366  17.      HI4PI  Unres.       19.  < 1.8E+04 0.2E+04           5  6  6 
+Leo T                09 34 53 +17 03 05   38  409  27.   29                            2.8E+05 0.4E+05           5  6  6 
+Phoenix           22 01 51 06 -44 26 41  -13  415  19.                                 1.2E+05 0.1E+05           5  5  5 
+NGC 6822             19 44 57 -14 47 21  -55  459  17.                                 1.3E+08 0.1E+08           5  5  5 
+Andromeda XVI        00 59 30 +32 22 36 -367  476  31.   42 GALFA2 Unres.       69.  < 2.0E+04 0.3E+04  0.4E+04  5  5  5 
+Andromeda XXIV       01 18 30 +46 21 58 -128  600  33.      HI4PI  Unres.       16.  < 4.0E+04 0.4E+04           5  5  5 
+NGC 185              00 38 58 +48 20 15 -204  617  26.                                 1.1E+05 0.1E+05           5  5  5 
+Andromeda XV         01 14 19 +38 07 03 -323  625  35.   75 HI4PI  Unres.       15.  < 4.1E+04 1.0E+04           5  5  5 
+Andromeda II         01 16 30 +33 25 09 -192  652  18.      GALFA2 Res.         20.  < 4.4E+04 0.2E+04           5  5  5 
+Andromeda XXVIII     22 32 41 +31 12 58 -326  661  61.  152 GALFA1 Unres.       31.  < 1.8E+04 0.3E+04  0.8E+04  5  5  5 
+Andromeda X          01 06 34 +44 48 16 -164  670  40.   25 HI4PI  Unres.       11.  < 3.4E+04 0.4E+04  0.3E+04  5  5  5 
+NGC 147              00 33 12 +48 30 32 -193  676  28.      HI4PI  Unres.       21.  < 6.7E+04 0.6E+04           5  5  5 
+Andromeda XXX        00 36 35 +49 38 48 -140  682  82.   31 HI4PI  Unres.       12.  < 4.0E+04 1.0E+04  0.4E+04  5  5  5 
+Andromeda XVII       00 37 07 +44 19 20 -252  728  27.   37 HI4PI  Unres.       11.  < 4.2E+04 0.3E+04  0.4E+04  5  5  5 
+Andromeda XXIX       23 58 56 +30 45 20 -194  731  74.      GALFA1 Unres.       36.  < 2.5E+04 0.5E+04           5  5  5 
+Andromeda XI         00 46 20 +33 48 05 -420  735  17.      HI4PI  Unres.       12.  < 4.6E+04 0.2E+04           5  5  5 
+Andromeda XX         00 07 31 +35 07 56 -456  741  55.   41 GALFA2 Unres.       76.  < 5.4E+04 0.8E+04  0.6E+04  5  5  5 
+Andromeda I          00 45 40 +38 02 28 -376  745  24.      HI4PI  Unres.       19.  < 7.5E+04 0.5E+04           5  5  5 
+Andromeda III        00 35 34 +36 29 52 -344  748  24.      GALFA2 Unres.       86.  < 6.2E+04 0.4E+04           5  5  5 
+IC 1613              01 04 48 +02 07 04 -232  755  42.                                 6.5E+07 0.7E+07           5  5  5 
+Cetus                00 26 11 -11 02 40  -84  755  24.      HI4PI  Unres.       24.  < 9.5E+04 0.6E+04           5  5  5 
+Lacerta I         24 22 58 16 +41 17 28 -198  759  42.      HI4PI  Unres.       24.  < 9.6E+04 1.1E+04           5 23  5 
+Andromeda VII        23 26 32 +50 40 33 -307  762  35.      HI4PI  Unres.       16.  < 6.6E+04 0.6E+04           5  5  5 
+Andromeda XXVI       00 23 46 +47 54 58 -262  762  42.      HI4PI  Unres.       12.  < 5.0E+04 0.6E+04           5  5  5 
+Andromeda IX         00 52 53 +43 11 45 -209  766  25.      HI4PI  Unres.       13.  < 5.5E+04 0.4E+04           5  5  5 
+LGS3                 01 03 55 +21 53 06 -287  769  25.                                 3.8E+05 0.2E+05           5  5  5 
+Andromeda XXIII      01 29 22 +38 43 08 -238  769  46.      HI4PI  Unres.       20.  < 8.2E+04 1.0E+04           5  5  5 
+Perseus I         25 03 01 24 +40 59 18 -326  773  64.      HI4PI  Unres.       19.  < 7.9E+04 1.3E+04           5 23  5 
+Andromeda V          01 10 17 +47 37 41 -403  773  29.      HI4PI  Unres.       19.  < 8.0E+04 0.6E+04           5  5  5 
+Cassiopeia III    26 00 35 59 +51 33 35 -372  776  50.      HI4PI  Unres.       18.  < 7.6E+04 1.0E+04           5 23  5 
+Andromeda VI         23 51 46 +24 34 57 -340  783  25.      GALFA1 Unres.       30.  < 2.4E+04 0.2E+04           5  5  5 
+Andromeda XIV        00 51 35 +29 41 49 -481  794 205.   22 GALFA1 Unres.       29.  < 2.4E+04 1.2E+04  0.1E+04  5  5  5 
+IC 10                00 20 17 +59 18 14 -348  794  44.                                 5.0E+07 0.6E+07           5  5  5 
+Leo A                09 59 26 +30 44 47   24  798  44.                                 1.1E+07 0.1E+07           5  5  5 
+M32                  00 42 42 +40 51 55 -199  805  78.      HI4PI  Unres.       38.  < 1.8E+05 0.3E+05           5  5  5 
+Andromeda XXV        00 30 09 +46 51 07 -108  813  45.      HI4PI  Unres.       62.  < 2.9E+05 0.3E+05           5  5  5 
+Andromeda XIX        00 19 32 +35 02 37 -112  820 162.   30 GALFA2 Res.         39.  < 1.3E+05 0.5E+05  0.1E+05  5  5  5 
+NGC 205              00 40 22 +41 41 07 -246  824  27.                                 4.0E+05 0.3E+05           5  5  5 
+Andromeda XXI        23 54 48 +42 28 15 -363  828  27.   23 HI4PI  Unres.       14.  < 6.9E+04 0.4E+04           5  5  5 
+Andromeda XXVII      00 37 27 +45 23 13 -540  828  46.      HI4PI  Unres.       19.  < 9.1E+04 1.0E+04           5  5  5 
+Andromeda XIII       00 51 51 +33 00 16 -185  840  19.      GALFA2 Unres.       76.  < 7.0E+04 0.3E+04           5  5  5 
+Tucana               22 41 50 -64 25 10  194  887  49.      HI4PI  Unres.       15.  < 8.5E+04 0.9E+04           5  5  5 
+Andromeda XXII       01 27 40 +28 05 25 -130  920 153.   30 GALFA1 Unres.       36.  < 3.9E+04 1.3E+04  0.3E+04  5  5  5 
+Pegasus dIrr         23 28 36 +14 44 35 -180  920  30.                                 5.9E+06 0.4E+06           5  5  5 
+Andromeda XII        00 47 27 +34 22 29 -558  929 145.   39 GALFA2 Unres.       71.  < 7.9E+04 2.5E+04  0.7E+04  5  5  5 
+WLM                  00 01 58 -15 27 39 -130  933  34.                                 6.1E+07 0.5E+07           5  5  5 
+Sagittarius dIrr     19 29 59 -17 40 51  -79 1067  88.                                 8.8E+06 1.5E+06           5  5  5 
+Aquarius             20 46 52 -12 50 53 -138 1072  40.                                 4.1E+06 0.3E+06           5  5  5 
+Andromeda XVIII      00 02 14 +45 05 20 -332 1213  45.   39 HI4PI  Unres.       21.  < 2.2E+05 0.2E+05  0.1E+05  5  5  5 
+Antlia B             09 48 56 -25 59 24  376 1294  95.                                 2.8E+05 0.4E+05           5  5  5 
+NGC 3109             10 03 07 -26 09 35  403 1300  48.                                 4.5E+08 0.3E+08           5  5  5 
+Antlia               10 04 04 -27 19 52  362 1349  62.                                 7.3E+05 0.7E+05           5  5  5 
+UGC 4879             09 16 02 +52 50 24  -29 1361  25.                                 9.5E+05 0.4E+05           5  5  5 
+Sextans B            10 00 00 +05 19 56  304 1426  20.                                 5.1E+07 0.1E+07           5  5  5 
+Sextans A            10 11 01 -04 41 34  324 1432  53.                                 7.7E+07 0.6E+07           5  5  5 
+Leo P                10 21 45 +18 05 17  264 1622 149.                                 9.4E+05 1.7E+05           5  5  5 
+HIZSS3B              07 00 29 -04 12 30  323 1675 108.                                 2.6E+06 0.3E+06           5  5  5 
+HIZSS3(A)            07 00 29 -04 12 30  288 1675 108.                                 1.4E+07 0.2E+07           5  5  5 
+KKR25                16 13 48 +54 22 16  -65 1923  62.      HI4PI  Unres.       23.  < 6.1E+05 0.4E+05           5  5  5 
+ESO410-G005          00 15 32 -32 10 48      1923  35.                                 7.3E+05 0.3E+05           5 27  5 
+IC 5152              22 02 42 -51 17 47  122 1950  45.                                 8.7E+07 0.4E+07           5  5  5 

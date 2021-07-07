@@ -1,0 +1,72 @@
+Title: The Gas Content and Stripping of Local Group Dwarf Galaxies 
+Authors: Putman M.E., Zheng Y., Price-Whelan A.M., Grcevich J., Johnson A.C.,
+    Tollerud E., Peek J.E.G.
+Table: Median Orbital Parameters and Halo Densities
+================================================================================
+Byte-by-byte Description of file: datafile3.txt
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label       Explanations
+--------------------------------------------------------------------------------
+   1- 17 A17    ---     Galaxy      Galaxy
+  19- 19 A1     ---   f_Galaxy      Notes or flags on Galaxy (1)
+  21- 23 I3     kpc     rperi       dwarf galaxy perigalacticon
+  25- 28 F4.1   kpc   E_rperi       Upper uncertainty in rperi
+  30- 34 F5.1   kpc   e_rperi       Lower uncertainty in rperi
+  36- 38 I3     km/s    vperi       dwarf galaxy velocity at perigalacticon
+  40- 42 I3     km/s  e_vperi       Uncertainty in vperi
+  44- 50 E7.1   cm-3    nhalo-peri  minumum MW halo gas density (2)
+  52- 59 E8.1   cm-3  E_nhalo-peri  Upper uncertainty in nhalo-peri
+  61- 67 E7.1   cm-3  e_nhalo-peri  Lower uncertainty in nhalo-peri
+  69- 72 I4     kpc     rapo        dwarf galaxy apogalacticon
+  74- 77 I4     kpc   E_rapo        Upper uncertainty in rapo
+  79- 82 I4     kpc   e_rapo        Lower uncertainty in rapo
+  84- 86 I3     km/s    vapo        dwarf galaxy velocity at apogalacticon
+  88- 90 I3     km/s  e_vapo        Uncertainty in vapo
+  92- 98 E7.1   cm-3    nhalo-apo   minimum MW halo gas density (2)
+ 100-108 E9.1   cm-3  E_nhalo-apo   Upper uncertainty in nhalo-apo
+ 110-116 E7.1   cm-3  e_nhalo-apo   Lower uncertainty in nhalo-apo
+--------------------------------------------------------------------------------
+Note (1): Notes on individual galaxies --
+    2 = This galaxy is not included in Figures 8 and 9 because of its very small pericenter;
+    3 = Phoenix is the only dwarf galaxy in this list with gas.
+Note (2): This is the median MW halo gas density required to strip the dwarf
+    galaxy at perigalacticon/apogalacticon
+--------------------------------------------------------------------------------
+Tucana III        2   3  0.3   0.3 536  19 3.5E-07 11.1E-07 3.2E-07   37    4    3  34   5 8.8E-05  28.7E-05 8.0E-05 
+Sagittarius dSph     15  2.    2.  354   9 3.8E-04  0.5E-04 0.5E-04   50   19   11 106  20 4.2E-03   2.8E-03 1.3E-03 
+Triangulum II        17  3.    2.  426  29 5.9E-06 11.8E-06 5.3E-06  146   81   36  50  14 4.3E-04   9.6E-04 3.9E-04 
+Segue 1              18  5.    6.  321  25 4.8E-05  4.1E-05 3.0E-05   41   17    8 128  18 3.1E-04   3.2E-04 2.0E-04 
+Willman 1            19 16.    8.  306  64 6.3E-05  4.8E-05 2.8E-05   43    9    7 139  35 3.1E-04   3.0E-04 1.4E-04 
+Draco II             19  1.    1.  378  16 2.7E-05  4.2E-05 2.2E-05   97   53   27  77  23 6.5E-04  15.4E-04 5.5E-04 
+Hydrus I             25  1.    1.  372  10 1.9E-05  0.8E-05 0.7E-05  128   85   36  73  25 5.3E-04   8.8E-04 2.8E-04 
+Reticulum 2          25  3.    4.  300  13 4.4E-05  2.1E-05 1.7E-05   53   14   10 139  19 2.1E-04   1.3E-04 0.9E-04 
+Carina II            27  1.    2.  397   9 2.8E-05  2.3E-05 1.5E-05  219  176   71  54  19 1.5E-03   2.6E-03 0.9E-03 
+Crater II            27 14.   10.  362  60 2.0E-05  1.0E-05 0.7E-05  128    9    7  77  20 4.5E-04   4.2E-04 1.8E-04 
+Carina III           28  1.    1.  392  28 8.7E-05 15.9E-05 7.2E-05  228  306  106  65  37 3.0E-03   9.6E-03 2.6E-03 
+Tucana II            33 25.    9.  358  28 2.2E-04  2.9E-04 1.7E-04  160  142   55  73  22 5.1E-03   9.6E-03 3.9E-03 
+Draco                33  8.    6.  313  34 3.1E-04  1.2E-04 0.9E-04   96   11    9 109   9 2.6E-03   0.9E-03 0.7E-03 
+Segue II             33  5.    7.  275  18 6.2E-05 11.6E-05 4.9E-05   57   22   10 153  22 2.2E-04   4.2E-04 1.7E-04 
+Ursa Minor           34  7.    6.  302  34 3.7E-04  1.4E-04 1.1E-04   88    6    5 117  10 2.4E-03   0.8E-03 0.7E-03 
+Hercules             36 36.   22.  361  82 6.9E-05  4.8E-05 3.1E-05  232  138   40  57  28 2.9E-03   6.1E-03 1.5E-03 
+Bootes               38 10.    9.  289  30 8.9E-05  4.1E-05 3.1E-05   85   20   10 122  15 5.2E-04   2.7E-04 1.8E-04 
+Ursa Major II        38  3.    3.  298  19 1.3E-04  0.7E-04 0.6E-04   99   61   31 116  34 8.6E-04  12.2E-04 4.6E-04 
+Bootes II            39  1.    2.  396  70 2.8E-04  5.3E-04 2.3E-04  537  600  406 118  92 3.0E-03  14.4E-03 2.6E-03 
+Coma Berenices       42  2.    2.  284  23 9.6E-05  3.9E-05 3.2E-05   96   59   28 125  38 5.0E-04   6.5E-04 2.4E-04 
+Sculptor             60  8.    7.  255  19 4.8E-04  1.4E-04 1.3E-04  113   23   12 134  15 1.8E-03   0.7E-03 0.5E-03 
+Sextans              76  8.    8.  265  14 3.2E-04  1.2E-04 1.0E-04  191  126   53 106  25 2.0E-03   2.0E-03 0.9E-03 
+Horologium 1         79 12.   22.  245  37 1.4E-04  2.1E-04 1.1E-04  129  246   46 138  36 5.1E-04  10.6E-04 4.1E-04 
+Fornax               79 39.   27.  242  48 8.6E-04  4.2E-04 3.1E-04  152   25    6 120  19 3.5E-03   1.5E-03 1.0E-03 
+Carina               81 24.   23.  214  37 3.2E-04  2.2E-04 1.2E-04  106   15    4 157  19 6.5E-04   3.6E-04 2.4E-04 
+Leo I               101 85.   61.  320  67 3.0E-04  0.7E-04 1.1E-04  525  204   27 138  55 1.6E-03   1.6E-03 0.8E-03 
+Ursa Major          102  6.    7.  272  49 2.4E-04  1.4E-04 0.9E-04  408  382  256 121  47 1.3E-03   1.6E-03 0.7E-03 
+Aquarius II         103  4.    7.  433 169 6.2E-05 15.1E-05 5.1E-05 1319  915 1151 299 203 1.4E-04   9.1E-04 1.2E-04 
+Grus I              116 12.   14.  340  81 3.1E-05  6.7E-05 2.5E-05  891  506  526 161 116 1.4E-04  13.6E-04 1.2E-04 
+Hydra II            137 12.   32.  456 241 4.6E-06 15.0E-06 4.2E-06 1488 1402 1053 353 294 9.3E-06 112.6E-06 8.6E-06 
+Canes Venatici I    138 46.   77.  249  64 3.4E-04  0.9E-04 1.3E-04  323  220   64 106  38 1.9E-03   2.4E-03 0.7E-03 
+Leo IV              154  5.    7.  504 259 1.5E-05  4.5E-05 1.2E-05 1799 1349 1269 424 291 2.3E-05  15.3E-05 1.9E-05 
+Canes Venatici II   159  5.   49.  316 108 7.6E-05  8.8E-05 4.2E-05  786  718  545 142 132 3.5E-04  10.7E-04 2.8E-04 
+Leo II              160 67.  115.  226  92 4.0E-04  2.4E-04 2.3E-04  239  258   18 117  42 1.5E-03   2.8E-03 0.5E-03 
+Leo V               171  6.    6.  543 257 1.4E-05  5.2E-05 1.2E-05 1985 1258 1213 473 289 2.0E-05  13.1E-05 1.8E-05 
+Pisces II           182 15.   15.  687 375 2.3E-05  8.4E-05 1.9E-05 2662 1751 1419 636 404 2.9E-05  16.8E-05 2.4E-05 
+Eridanus II         365 16.   17.  955 471 1.9E-05  5.0E-05 1.1E-05 3865 2033 1814 931 482 2.0E-05   6.0E-05 1.2E-05 
+Phoenix           3 417 20.   18.  304 152 3.3E-04  6.5E-04 1.9E-04 1306  697  440 255 165 4.5E-04  17.8E-04 2.9E-04 
